@@ -1,5 +1,5 @@
-# This is a python comment starts with '#'
-
+# This is a an example of comment in python
+# We use comments to document our code and leave breadcrumbs for ourselves
 
 # At the top of the file we declare with "packages" we want to use.
 # You can think of a package as some code someone else has already written that we can use so we don't have to re-write that code.
@@ -28,21 +28,22 @@ fernando_phone_number = "+13105036833"
 
 # Here we introduce the List type.
 # Here we declare a list variable with my phone number
-phone_numbers_i_want_to_message = [fernando_phone_number]
+phone_numbers_i_want_to_message = [fernando_phone_number, "+13105036833"]
 
+# Declare a boolean variable if i have received a message
+# Once i send myself a message i will set this to True
 has_fernando_been_messaged = False
 
 # Here we introduce for loops
-# Whats a for loop
 for phone_number in phone_numbers_i_want_to_message:
     print("I'm inside the for loop.")
     print(phone_number)
 
-   # If we haven't messaged Fernando already message him
+    # If we haven't messaged Fernando already message him
     if has_fernando_been_messaged is False:
         print("Fernando has not been messaged")
         print("Sending him a message!")
-        message = client.messages.create(to="+15558675309", from_="+15017250604", body="The Tap Program is great!")
+        message = client.messages.create(to=phone_number, from_="+13104219830", body="The Tap Program is great!")
 
         # Set the variable has_fernando_been_messaged to True so that he stops getting messaged.
         has_fernando_been_messaged = True
@@ -62,14 +63,8 @@ for phone_number in phone_numbers_i_want_to_message:
 
 
 # Add your number to the list of phone numbers and run the program.
-# Congrats your ready to start your programming journey!
 
 
 
-## Things you have now learned
-# What packages are
-# Declaring variables
-# What classes are and how to 'instantiate' them
-# What python lists are
 
-
+# Bonus: Talk about how Tradesy uses twilio API's and give other examples of API's we use...
