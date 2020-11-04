@@ -1,5 +1,6 @@
 # This is a an example of comment in python
 # We use comments to document our code and leave breadcrumbs for ourselves
+# Code comments won't affect your program just extra information for you or otheers
 
 
 # GOALS
@@ -9,6 +10,7 @@
 # It's okay if everything doesn't immediately make sense
 # Programming sounds hard and can be intimidating but not rocket science. There is a lot of information
 # How to eat an elephant? One bite at a time ...
+
 
 # Why Learn to Code?
 
@@ -33,7 +35,7 @@ print("This is fun.")
 print('Yay! Printing.')
 
 # What is print going to do?
-# Print is a function that is printing the characters within the round brackets to the screen.
+# Print is a function that is printing the characters within the parenthesis to the screen.
 # What is a function? A function is tiny of code that does something. I this case prints to the screen
 
 
@@ -43,22 +45,25 @@ print('Yay! Printing.')
 # Type in python hello.py
 
 # Exercise 2
-# Remove the last bracket in line #29 then run the program
+# Remove the closing parenthesis in line #31 then run the program
 # What happens ?
+
 
 # Every day things: Google the error message
 
 
 # What is Programming Syntax?
-# Is the set of rules that defines the combinations of symbols that are considered to be correctly structured statements or expressions in that language
 
+# Is the set of rules that defines the combinations of symbols that are considered to be correctly structured statements or expressions in that language
+# Analogy: Think about Grammar in English language.
 
 # Exercise 3
 # Make your script print another line.
 
-
 # Exercise 4
-# Add the pound '#' sign in front of lines 30, 31, 32, 33 then run your program and see what happens
+# Add the pound '#' sign in front of lines 31, 32, 33 then run your program and see what happens
+
+
 
 # FUN FACT: The term "bug" was used in an account by computer pioneer Grace Hopper, who publicized the cause of a malfunction in an early electromechanical computer. ...
 # Operators traced an error to a moth trapped in a relay, coining the term bug. This bug was carefully removed and taped to the log book.
