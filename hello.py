@@ -27,10 +27,14 @@
 # The most common program for people just starting
 
 print("Hello World!")
+print("Hello Again")
+print("I like typing this.")
+print("This is fun.")
+print('Yay! Printing.')
 
 # What is print going to do?
 # Print is a function that is printing the characters within the round brackets to the screen.
-# What is a function? A function is block of code that can be reused. A super powerful building block
+# What is a function? A function is tiny of code that does something. I this case prints to the screen
 
 
 # Exercise 1
@@ -39,22 +43,22 @@ print("Hello World!")
 # Type in python hello.py
 
 # Exercise 2
-# Remove the last bracket in line #26 then run the program
+# Remove the last bracket in line #29 then run the program
 # What happens ?
 
-# Google the error message
+# Every day things: Google the error message
 
 
 # What is Programming Syntax?
 # Is the set of rules that defines the combinations of symbols that are considered to be correctly structured statements or expressions in that language
 
 
+# Exercise 3
+# Make your script print another line.
 
 
-
-
-
-# Congrats you have a bug in your program!
+# Exercise 4
+# Add the pound '#' sign in front of lines 30, 31, 32, 33 then run your program and see what happens
 
 # FUN FACT: The term "bug" was used in an account by computer pioneer Grace Hopper, who publicized the cause of a malfunction in an early electromechanical computer. ...
 # Operators traced an error to a moth trapped in a relay, coining the term bug. This bug was carefully removed and taped to the log book.

@@ -10,11 +10,12 @@ from twilio.rest import Client
 twilio_account_id = "Our account information"
 
 # What is a variable?
-# The purpose variable is to reference something
-# Variables are declare so that they can be used and reused thru out your program
+# The purpose variable is to name something
 # Similar to how you would name a photo of yourself fernando.jpg so you can easily find it or
 # so you know what it is if you run into it. You want to give things
 # good names so that they are descriptive of what it actually is
+# = is used to give declare variables
+
 also_account_id = ''
 
 # We declare a password variable (string)
