@@ -1,6 +1,7 @@
 # This is a an example of comment in python
 # We use comments to document our code and leave breadcrumbs for ourselves
 
+
 # GOALS
 # What is your our goal for today's Session?
 # I want you to understand what a python script (program) looks like and how to run one.
@@ -14,12 +15,12 @@
 # Building things is cool.
 # You can build a website to let people list items and let other people buy them online aka Tradesy
 # The only limitation to what you can build in software is your own creativity + time.
-# You can literally build a multi million dollar company with
+# You can literally build a billion dollar company if the thing you build is something people want.
 
 
 # In data team we build software to power the analytics of the business.
 # Analytics are life blood in making critical business decisions.
-# We also build software to empower critical machine learning systems such as item ranking, item recommendation, message approvals etc
+# We also build software to empoweer critical machine learning systems such as item ranking, item recommendation, message approvals etc
 
 
 # So lets jump into it!
@@ -46,6 +47,11 @@ print("Hello World!")
 
 # What is Programming Syntax?
 # Is the set of rules that defines the combinations of symbols that are considered to be correctly structured statements or expressions in that language
+
+
+
+
+
 
 
 # Congrats you have a bug in your program!
