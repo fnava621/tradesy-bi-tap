@@ -59,6 +59,9 @@ has_fernando_been_messaged = False
 
 
 # Here we introduce for loops
+# What is a for loop?
+# You can think of a for loop as a thing that goes thru things in a list then does something with each individual thing
+# In the example below we are going thru our list of phone numbers then sending a message
 for phone_number in phone_numbers_i_want_to_message:
     print("I'm inside the for loop.")
     print(phone_number)
@@ -72,21 +75,19 @@ for phone_number in phone_numbers_i_want_to_message:
         # Set the variable has_fernando_been_messaged to True so that he stops getting messaged.
         has_fernando_been_messaged = True
     else:
-        # Do thing
+        # Do nothing
         continue
 
 
+# EXERCISES
 # Open terminal and run
 # python send_sms.py
 
-# Some things to try
-# Update the password to be incorrect and run the program
+# 1.) Add your number to the list of phone numbers and run the program.
 
-# Remove the password variable from Client class and see what error message looks like
-# Google the error that comes up
+# 2.) Update the password to be incorrect and run the program
 
-
-# Add your number to the list of phone numbers and run the program.
+# 3.) Remove the password variable from Client class and see what error message looks like
 
 
 # Bonus: Talk about how Tradesy uses twilio API's and give other examples of API's we use...
