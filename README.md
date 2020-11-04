@@ -1,13 +1,12 @@
 ## Python Introduction
 
-How to use python to programmatically send SMS messages
+How to use python to programmatically to send SMS messages
 
 ## Things you'll learn
 
 - What a python script is and how to run one.
-- What packages are 
-- Declaring variables and using variables
-- What classes are and how to 'instantiate' them
-- What python lists are
+- Basic building blocks of python programming language (packages, variables, classes, lists)
 
-## TODO: Python setup
+# How to send an sms message
+
+`python sened_sms.py`
