@@ -1,4 +1,4 @@
-#Here is an example of a function that we created
+# Here is an example of a function that we created
 
 def square(num):
     return num ** 2
