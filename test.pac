@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-    if (host.toLowerCase() === "localhost"){
+    if (host.toLowerCase() === "https://dev.tradesy.com/"){
       return "DIRECT"; // whitelisted
     }
   
