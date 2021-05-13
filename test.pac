@@ -1,5 +1,9 @@
 function FindProxyForURL(url, host) {
   
-  alert(host + url);
-  return "DIRECT"; // not-blocked
+
+  if (url.includes("dev.tradesy.com")) {
+      return "DIRECT"; // not-blocked
+  }
+
+  return "PROXY 127.0.0.1:9876"; // blocked (bad proxy)
 }
