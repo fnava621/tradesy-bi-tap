@@ -1,9 +1,17 @@
 function FindProxyForURL(url, host) {
-  
 
-  if (url.includes("dev.tradesy.com")) {
-      return "DIRECT"; // not-blocked
-  }
+    const allowedUrlPatterns = ["dev.tradesy.com", "dev-images-endpoint.tradesy.com"];
 
-  return "PROXY 127.0.0.1:9876"; // blocked (bad proxy)
+    let direct = false;
+    for (let i in allowedUrlPatterns) {
+        if (url.includes(allowedUrlPatterns[i])) {
+            return "DIRECT"; // not-blocked
+        }
+    }
+
+    if (url.includes("dev.tradesy.com")) {
+        return "DIRECT"; // not-blocked
+    }
+
+    return "PROXY 127.0.0.1:9876"; // blocked (bad proxy)
 }
